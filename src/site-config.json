@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "Nate's Painting",
+    "phone": "15025726658",
+    "category": "painting",
+    "city": "Louisville",
+    "state": "KY"
+  },
+  "design": {
+    "preset": {
+      "id": "painting-red-charge",
+      "categoryGroup": "painting",
+      "name": "Red Charge",
+      "recipeFile": "painting/red-charge.astro",
+      "colors": {
+        "primary": "#F59E0B",
+        "primaryDark": "#78350F",
+        "primaryLight": "#fde7c2",
+        "secondary": "#dd8e0a",
+        "accent": "#D946EF",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#F59E0B",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "painting/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Transforming Louisville Homes with Color",
+      "heroSubline": "Nate's Painting brings artistry and precision to every project. Envision a fresh, vibrant space tailored to your style.",
+      "aboutTitle": "Crafting Colorful Louisville Stories",
+      "aboutText": [
+        "Nate's Painting started with a simple passion: transforming houses into homes through the power of color. For over a decade, we've been serving the Louisville community, turning visions into vibrant realities.",
+        "Our approach is rooted in meticulous detail and open communication. We believe in understanding your unique style and needs, ensuring a personalized painting experience that exceeds expectations. We use premium paints and proven techniques for lasting beauty.",
+        "We're proud to be a part of the Louisville community. From Old Louisville's historic homes to the modern developments in the East End, we're committed to enhancing the beauty of our city, one brushstroke at a time."
+      ],
+      "valueProps": [
+        {
+          "title": "Detailed Prep Work",
+          "description": "We meticulously prepare surfaces to ensure a flawless, long-lasting finish. This includes cleaning, sanding, and priming for optimal paint adhesion."
+        },
+        {
+          "title": "Premium Quality Paints",
+          "description": "We use only top-of-the-line paints from trusted brands, offering exceptional durability and vibrant, lasting color."
+        },
+        {
+          "title": "Experienced Professionals",
+          "description": "Our skilled team of painters brings years of experience and a commitment to excellence to every project."
+        },
+        {
+          "title": "Personalized Service",
+          "description": "We work closely with you to understand your vision and provide tailored solutions that meet your specific needs and budget."
+        }
+      ],
+      "ctaHeadline": "Ready to Reimagine Your Space?",
+      "ctaSubline": "Contact Nate's Painting today for a free consultation and let us bring your dream to life."
+    },
+    "services": [
+      {
+        "slug": "interior-painting",
+        "name": "Interior Painting",
+        "shortDescription": "Transform your interior with expert color selection and flawless application.",
+        "description": "Interior painting is more than just applying color to walls; it's about creating an atmosphere, enhancing the architecture, and reflecting your personal style. At Nate's Painting, we understand the nuances of interior painting in Louisville's diverse housing stock, from the historic charm of Old Louisville to the modern aesthetics of the Highlands. \n\nWe begin with a thorough consultation to understand your vision, considering factors like lighting, furniture, and overall design. Our meticulous preparation includes covering furniture, protecting floors, patching imperfections, and priming surfaces for optimal paint adhesion. We use premium paints that are low in VOCs, ensuring a healthy indoor environment. \n\nWhether you're looking to refresh a single room or transform your entire home, our skilled painters deliver exceptional results with attention to detail and a commitment to your satisfaction. We handle everything from color selection to final cleanup, leaving you with a beautifully painted interior that you'll love for years to come.",
+        "process": [
+          "Step 1: Consultation and Color Selection",
+          "Step 2: Thorough Surface Preparation",
+          "Step 3: Careful Application of Primer and Paint",
+          "Step 4: Detailed Inspection and Cleanup"
+        ],
+        "benefits": [
+          "Enhances the beauty and value of your home",
+          "Creates a fresh, inviting atmosphere",
+          "Protects walls from wear and tear",
+          "Reflects your personal style and preferences"
+        ],
+        "faq": [
+          {
+            "question": "How long does interior painting typically take?",
+            "answer": "The duration depends on the size and complexity of the project. A single room might take 1-2 days, while an entire house could take a week or more. We'll provide a detailed timeline during the consultation."
+          },
+          {
+            "question": "Do I need to move my furniture?",
+            "answer": "We recommend moving small items and valuables. We'll cover and protect larger furniture to prevent any damage during the painting process."
+          },
+          {
+            "question": "What type of paint do you use?",
+            "answer": "We use premium-quality paints from trusted brands like Sherwin-Williams and Benjamin Moore. We offer a variety of finishes, including matte, eggshell, satin, and semi-gloss, to suit your specific needs and preferences."
+          }
+        ]
+      },
+      {
+        "slug": "exterior-painting",
+        "name": "Exterior Painting",
+        "shortDescription": "Protect and beautify your home's exterior with our expert painting services.",
+        "description": "Louisville's climate, with its hot summers and cold winters, can take a toll on your home's exterior. At Nate's Painting, we specialize in exterior painting solutions that not only enhance curb appeal but also provide lasting protection against the elements. We understand the unique challenges posed by Louisville's weather patterns and limestone foundations.\n\nOur exterior painting process begins with a thorough assessment of your home's exterior, identifying any areas of damage or deterioration. We then meticulously prepare the surfaces by power washing, scraping loose paint, and repairing cracks or holes. We use high-quality exterior paints that are specifically formulated to withstand Louisville's weather conditions, providing superior durability and fade resistance.\n\nWhether you're looking to refresh your home's existing color or completely transform its appearance, our experienced painters deliver exceptional results with attention to detail and a commitment to your satisfaction. We handle everything from siding and trim to doors and windows, ensuring a cohesive and beautiful finish.",
+        "process": [
+          "Step 1: Thorough Exterior Assessment",
+          "Step 2: Power Washing and Surface Preparation",
+          "Step 3: Application of Primer and Paint",
+          "Step 4: Detailed Inspection and Cleanup"
+        ],
+        "benefits": [
+          "Enhances curb appeal and home value",
+          "Protects against weather damage",
+          "Extends the life of siding and trim",
+          "Provides a fresh, updated look"
+        ],
+        "faq": [
+          {
+            "question": "How often should I repaint my home's exterior?",
+            "answer": "Generally, you should repaint your home's exterior every 5-10 years, depending on the type of siding and the severity of the weather conditions. Signs of wear and tear, such as fading, cracking, or peeling paint, indicate that it's time for a fresh coat."
+          },
+          {
+            "question": "What type of paint is best for exterior painting?",
+            "answer": "We recommend using high-quality acrylic latex paints that are specifically formulated for exterior use. These paints offer excellent durability, fade resistance, and protection against moisture and mildew."
+          },
+          {
+            "question": "Do you offer color consultations for exterior painting?",
+            "answer": "Yes, we offer color consultations to help you choose the perfect colors for your home's exterior. We can provide expert advice on color combinations and trends, taking into account your home's architectural style and surrounding landscape."
+          }
+        ]
+      },
+      {
+        "slug": "cabinet-refinishing",
+        "name": "Cabinet Refinishing",
+        "shortDescription": "Update your kitchen or bathroom with beautiful and affordable cabinet refinishing.",
+        "description": "Cabinet refinishing is a cost-effective way to revitalize your kitchen or bathroom without the expense and hassle of replacing your cabinets. At Nate's Painting, we offer expert cabinet refinishing services that can transform your outdated cabinets into a stylish and functional focal point. Many homes in Louisville, particularly in areas like St. Matthews, feature solid wood cabinets that are perfect candidates for refinishing.\n\nOur cabinet refinishing process begins with a thorough cleaning and sanding of the cabinet surfaces to remove any existing finish and create a smooth base for the new paint or stain. We then apply multiple coats of high-quality paint or stain, ensuring a durable and beautiful finish. We can also update hardware, such as knobs and pulls, to further enhance the look of your cabinets.\n\nWhether you're looking to brighten up your kitchen with a fresh coat of paint or add warmth with a rich stain, our skilled craftsmen deliver exceptional results with attention to detail and a commitment to your satisfaction.",
+        "process": [
+          "Step 1: Cabinet Removal and Cleaning",
+          "Step 2: Sanding and Surface Preparation",
+          "Step 3: Application of Primer and Paint/Stain",
+          "Step 4: Reinstallation and Hardware Update (optional)"
+        ],
+        "benefits": [
+          "Saves money compared to cabinet replacement",
+          "Updates the look of your kitchen or bathroom",
+          "Extends the life of your cabinets",
+          "Reduces waste and environmental impact"
+        ],
+        "faq": [
+          {
+            "question": "Can all types of cabinets be refinished?",
+            "answer": "Most cabinets can be refinished, but the process may vary depending on the material. Solid wood cabinets are the best candidates for refinishing, while laminate or veneer cabinets may require special techniques."
+          },
+          {
+            "question": "How long does cabinet refinishing take?",
+            "answer": "Cabinet refinishing typically takes 3-5 days, depending on the size and complexity of the project. We'll provide a detailed timeline during the consultation."
+          },
+          {
+            "question": "What colors and finishes are available for cabinet refinishing?",
+            "answer": "We offer a wide range of colors and finishes to choose from, including paints, stains, and glazes. We can also customize colors to match your existing décor."
+          }
+        ]
+      },
+      {
+        "slug": "drywall-repair",
+        "name": "Drywall Repair",
+        "shortDescription": "Seamless drywall repair services to restore your walls and ceilings.",
+        "description": "From minor dings to major damage, drywall imperfections can detract from the beauty of your home. Nate's Painting offers professional drywall repair services to seamlessly restore your walls and ceilings, preparing them for a flawless paint finish. Many older homes in Louisville, particularly in the Highlands, have unique drywall characteristics that require a skilled hand.\n\nOur drywall repair process begins with a careful assessment of the damage, identifying the extent of the problem and the best course of action. We then use specialized techniques and materials to repair holes, cracks, and dents, ensuring a smooth and even surface. We also pay close attention to matching the texture of the existing drywall for a seamless blend.\n\nWhether you're dealing with nail holes, water damage, or accidental impacts, our experienced technicians deliver exceptional results with attention to detail and a commitment to your satisfaction. We handle everything from small patching jobs to large-scale repairs, leaving you with walls and ceilings that look as good as new.",
+        "process": [
+          "Step 1: Damage Assessment",
+          "Step 2: Patching and Repairing",
+          "Step 3: Sanding and Smoothing",
+          "Step 4: Priming and Painting (optional)"
+        ],
+        "benefits": [
+          "Restores the appearance of your walls and ceilings",
+          "Prevents further damage and deterioration",
+          "Prepares surfaces for painting",
+          "Increases the value of your home"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if I need drywall repair?",
+            "answer": "Signs that you need drywall repair include visible holes, cracks, dents, water stains, and peeling paint. If you notice any of these issues, it's best to address them promptly to prevent further damage."
+          },
+          {
+            "question": "Can you match the texture of my existing drywall?",
+            "answer": "Yes, we have the expertise and tools to match the texture of your existing drywall for a seamless blend. We can replicate a variety of textures, including smooth, orange peel, and knockdown."
+          },
+          {
+            "question": "How long does drywall repair take?",
+            "answer": "The duration of drywall repair depends on the size and complexity of the job. Small repairs can typically be completed in a few hours, while larger repairs may take a day or two."
+          }
+        ]
+      },
+      {
+        "slug": "popcorn-ceiling-removal",
+        "name": "Popcorn Ceiling Removal",
+        "shortDescription": "Modernize your home with professional popcorn ceiling removal services.",
+        "description": "Popcorn ceilings, a common feature in older homes, can make a room feel dated and dingy. Nate's Painting offers professional popcorn ceiling removal services to modernize your home and create a smoother, more contemporary look. Many homes in Louisville's older neighborhoods, such as Old Louisville, still have popcorn ceilings.\n\nOur popcorn ceiling removal process begins with careful preparation to protect your floors and furniture. We then use specialized techniques to safely remove the popcorn texture, minimizing dust and debris. After removing the popcorn, we smooth and prime the ceiling, preparing it for a fresh coat of paint.\n\nWhether you're looking to update a single room or your entire home, our experienced technicians deliver exceptional results with attention to detail and a commitment to your satisfaction. We handle everything from removal to painting, leaving you with a smooth, modern ceiling that enhances the beauty of your space.",
+        "process": [
+          "Step 1: Room Preparation and Protection",
+          "Step 2: Popcorn Texture Removal",
+          "Step 3: Ceiling Smoothing and Priming",
+          "Step 4: Painting (optional)"
+        ],
+        "benefits": [
+          "Modernizes the look of your home",
+          "Increases the value of your home",
+          "Eliminates dust and allergens trapped in popcorn texture",
+          "Creates a smoother, more contemporary ceiling"
+        ],
+        "faq": [
+          {
+            "question": "Is popcorn ceiling removal messy?",
+            "answer": "Popcorn ceiling removal can be messy, but we take precautions to minimize dust and debris. We cover your floors and furniture with plastic sheeting and use specialized equipment to contain the mess."
+          },
+          {
+            "question": "Is it safe to remove popcorn ceilings?",
+            "answer": "Some popcorn ceilings may contain asbestos, which is a hazardous material. We recommend testing your popcorn ceiling for asbestos before removal. If asbestos is present, we can safely remove the ceiling following proper safety protocols."
+          },
+          {
+            "question": "How long does popcorn ceiling removal take?",
+            "answer": "The duration of popcorn ceiling removal depends on the size of the room and the type of popcorn texture. A typical room can be completed in 1-2 days."
+          }
+        ]
+      },
+      {
+        "slug": "deck-staining-sealing",
+        "name": "Deck Staining & Sealing",
+        "shortDescription": "Protect and beautify your deck with professional staining and sealing services.",
+        "description": "Louisville's fluctuating weather patterns can be harsh on wooden decks, leading to fading, cracking, and warping. Nate's Painting offers professional deck staining and sealing services to protect and beautify your outdoor living space. We understand the importance of proper deck maintenance in Louisville's climate.\n\nOur deck staining and sealing process begins with a thorough cleaning of the deck surface to remove dirt, mildew, and loose debris. We then apply a high-quality stain or sealant that is specifically formulated to protect against moisture, UV rays, and fungal growth. We offer a variety of colors and finishes to match your personal style and complement your home's exterior.\n\nWhether you're looking to enhance the natural beauty of your deck or add a pop of color, our experienced technicians deliver exceptional results with attention to detail and a commitment to your satisfaction. We handle everything from cleaning and preparation to staining and sealing, leaving you with a beautiful and durable deck that you can enjoy for years to come.",
+        "process": [
+          "Step 1: Deck Cleaning and Preparation",
+          "Step 2: Sanding (if necessary)",
+          "Step 3: Application of Stain or Sealant",
+          "Step 4: Inspection and Cleanup"
+        ],
+        "benefits": [
+          "Protects against weather damage and decay",
+          "Enhances the beauty of your deck",
+          "Extends the life of your deck",
+          "Provides a comfortable and inviting outdoor space"
+        ],
+        "faq": [
+          {
+            "question": "How often should I stain or seal my deck?",
+            "answer": "Generally, you should stain or seal your deck every 1-3 years, depending on the type of wood and the severity of the weather conditions. Signs that your deck needs staining or sealing include fading, cracking, and water damage."
+          },
+          {
+            "question": "What type of stain or sealant is best for my deck?",
+            "answer": "We recommend using high-quality stains and sealants that are specifically formulated for exterior use. These products offer excellent protection against moisture, UV rays, and fungal growth."
+          },
+          {
+            "question": "Do I need to clean my deck before staining or sealing?",
+            "answer": "Yes, it's essential to clean your deck thoroughly before staining or sealing. This will remove dirt, mildew, and loose debris, allowing the stain or sealant to penetrate the wood properly."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Louisville",
+        "slug": "louisville-ky",
+        "state": "KY",
+        "content": "Nate's Painting is proud to offer our professional painting services to the residents and businesses of Louisville, Kentucky. As a locally owned and operated company, we understand the unique needs of our community and are committed to providing top-quality workmanship and exceptional customer service. Whether you're looking to refresh the interior of your historic home in Old Louisville or need a fresh coat of paint for your commercial property downtown, Nate's Painting has you covered. \n\nWe offer a wide range of painting services, including interior and exterior painting, drywall repair, wallpaper removal, and more. Our team of experienced painters uses only the highest quality paints and materials to ensure a long-lasting and beautiful finish. We're dedicated to exceeding your expectations and transforming your space into something you'll love. Nate's Painting is committed to providing Louisville with quality painting services at an affordable price. Contact us today for a free estimate!",
+        "localContext": "Louisville is known for its vibrant arts scene, bourbon distilleries, and the Kentucky Derby, reflecting a blend of tradition and modern culture.",
+        "nearbyAreas": [
+          "St. Matthews",
+          "Jeffersontown",
+          "Shively"
+        ]
+      },
+      {
+        "city": "St. Matthews",
+        "slug": "st-matthews-ky",
+        "state": "KY",
+        "content": "Nate's Painting is delighted to serve the St. Matthews community with our expert painting services. St. Matthews is known for its charming neighborhoods, excellent schools, and vibrant shopping district. We understand the importance of maintaining the beauty and value of your home or business in this desirable area. From updating the paint in your historic bungalow to giving your commercial space a fresh, modern look, Nate's Painting is here to help.\n\nWe offer a full range of painting services to meet your needs, including interior and exterior painting, cabinet refinishing, and deck staining. Our team of skilled painters takes pride in our attention to detail and commitment to customer satisfaction. We use only premium paints and materials to ensure a durable and beautiful finish that will enhance the curb appeal and value of your property. Nate's Painting is your trusted partner for all your painting needs in St. Matthews.",
+        "localContext": "St. Matthews is a bustling suburb of Louisville known for its shopping centers, restaurants, and family-friendly atmosphere.",
+        "nearbyAreas": [
+          "Louisville",
+          "Lyndon",
+          "Indian Hills"
+        ]
+      },
+      {
+        "city": "Jeffersontown",
+        "slug": "jeffersontown-ky",
+        "state": "KY",
+        "content": "Nate's Painting is proud to provide top-notch painting services to the residents and businesses of Jeffersontown, Kentucky. Jeffersontown, often called 'J-Town' by locals, is a thriving community with a strong sense of pride and a diverse range of architectural styles. Whether you're looking to update the look of your home in one of J-Town's established neighborhoods or need a professional painting service for your commercial property in the Bluegrass Commerce Park, Nate's Painting is here to help.\n\nWe offer a comprehensive range of painting services, including interior and exterior painting, pressure washing, and minor repairs. Our experienced painters are committed to delivering exceptional results and exceeding your expectations. We use only high-quality paints and materials to ensure a long-lasting and beautiful finish that will enhance the value and appeal of your property. Nate's Painting is your reliable choice for all your painting needs in Jeffersontown.",
+        "localContext": "Jeffersontown is a self-governing city within Jefferson County, known for its industrial parks and community events.",
+        "nearbyAreas": [
+          "Louisville",
+          "Middletown",
+          "Anchorage"
+        ]
+      },
+      {
+        "city": "Middletown",
+        "slug": "middletown-ky",
+        "state": "KY",
+        "content": "Nate's Painting is pleased to offer our professional painting services to the residents and businesses of Middletown, Kentucky. Middletown is a historic community with a rich heritage and a blend of charming older homes and modern developments. We understand the importance of preserving the beauty and character of your property in this desirable area. From refreshing the paint in your historic home to updating the look of your commercial building, Nate's Painting is here to help.\n\nOur team of skilled painters is committed to delivering exceptional results and exceeding your expectations. We use only premium paints and materials to ensure a durable and beautiful finish that will enhance the curb appeal and value of your property. We offer a full range of painting services, including interior and exterior painting, drywall repair, and wallpaper removal. Nate's Painting is your trusted partner for all your painting needs in Middletown.",
+        "localContext": "Middletown is a suburb known for its historic Main Street, upscale homes, and proximity to parks and golf courses.",
+        "nearbyAreas": [
+          "Louisville",
+          "Anchorage",
+          "Jeffersontown"
+        ]
+      },
+      {
+        "city": "Anchorage",
+        "slug": "anchorage-ky",
+        "state": "KY",
+        "content": "Nate's Painting is delighted to provide exceptional painting services to the beautiful city of Anchorage, Kentucky. Anchorage is known for its large, estate-like properties, lush greenery, and commitment to maintaining its unique character. We understand the importance of preserving the beauty and value of your home in this prestigious area. Whether you're looking to refresh the interior of your historic home or need a fresh coat of paint for your exterior, Nate's Painting is here to help.\n\nWe offer a full range of painting services to meet your needs, including interior and exterior painting, cabinet refinishing, and deck staining. Our team of skilled painters takes pride in our attention to detail and commitment to customer satisfaction. We use only premium paints and materials to ensure a durable and beautiful finish that will enhance the curb appeal and value of your property. Nate's Painting is your trusted partner for all your painting needs in Anchorage.",
+        "localContext": "Anchorage is an affluent residential community known for its large lots, horse farms, and wooded landscapes.",
+        "nearbyAreas": [
+          "Louisville",
+          "Middletown",
+          "Jeffersontown"
+        ]
+      },
+      {
+        "city": "Shively",
+        "slug": "shively-ky",
+        "state": "KY",
+        "content": "Nate's Painting is proud to serve the Shively community with our professional and reliable painting services. Shively, Kentucky, is a city with a strong sense of community and a mix of residential and industrial areas. We understand the diverse needs of our customers in Shively, from homeowners looking to update their interiors to businesses seeking to enhance their commercial spaces. Nate's Painting is committed to providing top-quality workmanship and exceptional customer service to every client in Shively.\n\nWe offer a wide range of painting services, including interior and exterior painting, drywall repair, and power washing. Our experienced team uses only the highest quality paints and materials to ensure a long-lasting and beautiful finish. We're dedicated to exceeding your expectations and transforming your space into something you'll love. Nate's Painting is committed to providing Shively with quality painting services at an affordable price.",
+        "localContext": "Shively is a city known for its industrial history, particularly its association with the bourbon industry.",
+        "nearbyAreas": [
+          "Louisville",
+          "Pleasure Ridge Park",
+          "Valley Station"
+        ]
+      },
+      {
+        "city": "Lyndon",
+        "slug": "lyndon-ky",
+        "state": "KY",
+        "content": "Nate's Painting is pleased to offer our expert painting services to the residents and businesses of Lyndon, Kentucky. Lyndon is a vibrant suburb of Louisville known for its family-friendly atmosphere, excellent schools, and convenient location. We understand the importance of maintaining the beauty and value of your home or business in this desirable area. From updating the paint in your colonial to giving your commercial space a fresh, modern look, Nate's Painting is here to help.\n\nWe offer a full range of painting services to meet your needs, including interior and exterior painting, cabinet refinishing, and deck staining. Our team of skilled painters takes pride in our attention to detail and commitment to customer satisfaction. We use only premium paints and materials to ensure a durable and beautiful finish that will enhance the curb appeal and value of your property. Nate's Painting is your trusted partner for all your painting needs in Lyndon.",
+        "localContext": "Lyndon is a residential area known for its parks, schools, and community events.",
+        "nearbyAreas": [
+          "Louisville",
+          "St. Matthews",
+          "Jeffersontown"
+        ]
+      },
+      {
+        "city": "Indian Hills",
+        "slug": "indian-hills-ky",
+        "state": "KY",
+        "content": "Nate's Painting is delighted to provide professional painting services to the residents of Indian Hills, Kentucky. Indian Hills is a prestigious residential community known for its beautiful homes, large lots, and wooded landscapes. We understand the importance of maintaining the elegance and value of your property in this exclusive area. Whether you're looking to refresh the interior of your custom-built home or need a fresh coat of paint for your exterior, Nate's Painting is here to help.\n\nOur team of skilled painters takes pride in our attention to detail and commitment to customer satisfaction. We use only premium paints and materials to ensure a durable and beautiful finish that will enhance the curb appeal and value of your property. We offer a full range of painting services to meet your needs, including interior and exterior painting, cabinet refinishing, and drywall repair. Nate's Painting is your trusted partner for all your painting needs in Indian Hills.",
+        "localContext": "Indian Hills is an affluent residential area characterized by its large homes, mature trees, and private atmosphere.",
+        "nearbyAreas": [
+          "Louisville",
+          "St. Matthews",
+          "Rolling Fields"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Interior Painting",
+        "text": "Nate's Painting did an amazing job painting our living room! They were professional, efficient, and the attention to detail was incredible. Our house in the Highlands looks brand new. Highly recommend!",
+        "date": "2024-11-15"
+      },
+      {
+        "name": "John K.",
+        "rating": 4,
+        "service": "Exterior Painting",
+        "text": "We hired Nate's Painting to paint the exterior of our house in St. Matthews. The team was prompt, courteous, and did a fantastic job. There were some minor touch-ups needed, but they addressed them quickly and without any hassle.",
+        "date": "2024-12-01"
+      },
+      {
+        "name": "Emily R.",
+        "rating": 5,
+        "service": "Cabinet Refinishing",
+        "text": "Our kitchen cabinets were looking dated, but Nate's Painting transformed them with their refinishing service! They look absolutely beautiful, and it saved us a ton of money compared to replacing them. Great work!",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "David L.",
+        "rating": 5,
+        "service": "Drywall Repair",
+        "text": "We had some water damage in our basement, and Nate's Painting did a fantastic job repairing the drywall. You can't even tell there was ever any damage. Very professional and reliable service.",
+        "date": "2025-02-20"
+      },
+      {
+        "name": "Jessica P.",
+        "rating": 4,
+        "service": "Popcorn Ceiling Removal",
+        "text": "Nate's Painting removed the popcorn ceiling in our dining room, and it made a huge difference! It was a messy job, but they cleaned up everything thoroughly. The room looks so much brighter and more modern now.",
+        "date": "2025-03-05"
+      },
+      {
+        "name": "Michael B.",
+        "rating": 5,
+        "service": "Deck Staining & Sealing",
+        "text": "Our deck was looking weathered and worn, but Nate's Painting brought it back to life with their staining and sealing service. They were meticulous in their preparation and application, and the deck looks fantastic now. Highly recommend!",
+        "date": "2025-03-15"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Nate's Painting: Louisville Painters",
+        "description": "Expert painting services in Louisville, KY. Interior, exterior, cabinets, drywall repair & more. Free quotes!"
+      },
+      "about": {
+        "title": "About Nate's Painting | Louisville, KY",
+        "description": "Learn about Nate's Painting's commitment to quality and customer satisfaction in the Louisville community."
+      },
+      "services": {
+        "title": "Painting Services | Nate's Painting",
+        "description": "Comprehensive painting services in Louisville. Interior, exterior, cabinet refinishing, drywall repair, and more."
+      },
+      "contact": {
+        "title": "Contact Nate's Painting | Louisville, KY",
+        "description": "Get in touch with Nate's Painting for a free consultation and estimate for your painting project in Louisville."
+      },
+      "reviews": {
+        "title": "Nate's Painting Reviews | Louisville, KY",
+        "description": "Read what our satisfied customers are saying about Nate's Painting's quality workmanship and excellent service."
+      },
+      "service-areas": {
+        "title": "Service Areas | Nate's Painting",
+        "description": "Check our service area coverage in Louisville and surrounding Kentucky communities."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "interior-painting": "/images/service-interior-painting.webp",
+      "exterior-painting": "/images/service-exterior-painting.webp",
+      "cabinet-refinishing": "/images/service-cabinet-refinishing.webp",
+      "drywall-repair": "/images/service-drywall-repair.webp",
+      "popcorn-ceiling-removal": "/images/service-popcorn-ceiling-removal.webp",
+      "deck-staining-sealing": "/images/service-deck-staining-sealing.webp"
+    },
+    "servicesResponsive": {
+      "interior-painting": {
+        "src": "/images/service-interior-painting.webp",
+        "srcset": "/images/service-interior-painting-400w.webp 400w, /images/service-interior-painting-800w.webp 800w, /images/service-interior-painting-1200w.webp 1200w, /images/service-interior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "exterior-painting": {
+        "src": "/images/service-exterior-painting.webp",
+        "srcset": "/images/service-exterior-painting-400w.webp 400w, /images/service-exterior-painting-800w.webp 800w, /images/service-exterior-painting-1200w.webp 1200w, /images/service-exterior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "cabinet-refinishing": {
+        "src": "/images/service-cabinet-refinishing.webp",
+        "srcset": "/images/service-cabinet-refinishing-400w.webp 400w, /images/service-cabinet-refinishing-800w.webp 800w, /images/service-cabinet-refinishing-1200w.webp 1200w, /images/service-cabinet-refinishing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drywall-repair": {
+        "src": "/images/service-drywall-repair.webp",
+        "srcset": "/images/service-drywall-repair-400w.webp 400w, /images/service-drywall-repair-800w.webp 800w, /images/service-drywall-repair-1200w.webp 1200w, /images/service-drywall-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "popcorn-ceiling-removal": {
+        "src": "/images/service-popcorn-ceiling-removal.webp",
+        "srcset": "/images/service-popcorn-ceiling-removal-400w.webp 400w, /images/service-popcorn-ceiling-removal-800w.webp 800w, /images/service-popcorn-ceiling-removal-1200w.webp 1200w, /images/service-popcorn-ceiling-removal.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-staining-sealing": {
+        "src": "/images/service-deck-staining-sealing.webp",
+        "srcset": "/images/service-deck-staining-sealing-400w.webp 400w, /images/service-deck-staining-sealing-800w.webp 800w, /images/service-deck-staining-sealing-1200w.webp 1200w, /images/service-deck-staining-sealing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
